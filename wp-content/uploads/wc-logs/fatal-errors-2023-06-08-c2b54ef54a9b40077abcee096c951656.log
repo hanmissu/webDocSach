@@ -1,0 +1,40 @@
+2023-06-08T06:04:08+00:00 CRITICAL Uncaught Error: Call to a member function getAll() on null in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php:91
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(52): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->suaSanPham('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php on line 91
+
+2023-06-08T06:30:00+00:00 CRITICAL Uncaught Error: Class 'sanPhamModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php:15
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(52): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->suaSanPham('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php on line 15
+
+2023-06-08T06:40:15+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php:7
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(52): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->suaSanPham('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php on line 7
+
+2023-06-08T06:40:35+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php:7
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(52): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->suaSanPham('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php on line 7
+

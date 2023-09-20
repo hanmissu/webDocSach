@@ -1,0 +1,20 @@
+2023-05-30T07:25:11+00:00 CRITICAL Uncaught Error: Class 'theLoai' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NXB.php:60
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(40): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSB('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NXB.php on line 60
+
+2023-05-30T07:26:27+00:00 CRITICAL Uncaught Error: Class 'theLoai' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NXB.php:60
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(40): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSB('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NXB.php on line 60
+

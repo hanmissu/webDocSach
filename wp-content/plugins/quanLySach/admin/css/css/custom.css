@@ -1,0 +1,13 @@
+.block-27 ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    padding-inline-start: 40px;
+}
+
+.sub_requied {
+    color: red;
+}

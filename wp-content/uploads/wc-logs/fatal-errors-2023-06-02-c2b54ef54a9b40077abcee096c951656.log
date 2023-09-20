@@ -1,0 +1,50 @@
+2023-06-02T13:07:01+00:00 CRITICAL Uncaught Error: Class 'theLoaiModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:55
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(39): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 55
+
+2023-06-02T13:08:03+00:00 CRITICAL Uncaught Error: Class 'theLoaiModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:55
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(39): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 55
+
+2023-06-02T13:14:48+00:00 CRITICAL Uncaught Error: Class 'theLoaiModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:55
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(39): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 55
+
+2023-06-02T13:23:18+00:00 CRITICAL Uncaught Error: Class 'NSXModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php:74
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(42): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSX('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php on line 74
+
+2023-06-02T13:23:29+00:00 CRITICAL Uncaught Error: Class 'sanPhamModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_san_pham.php:44
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(35): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_san_pham('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_san_pham.php on line 44
+

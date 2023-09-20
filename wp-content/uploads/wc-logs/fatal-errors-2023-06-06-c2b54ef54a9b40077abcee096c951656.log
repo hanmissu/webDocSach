@@ -1,0 +1,89 @@
+2023-06-06T11:00:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function update(), 2 passed in C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php on line 310 and exactly 10 expected in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\san-Pham.php:30
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(310): update('machine-learnin...', 'han')
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\Controller\sanPhamController.php(57): do_action('update', 'machine-learnin...', 'han', '', '', 'machinelearning...', 'machine-learnin...', '               ...', '61', '1')
+#4 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_sua_san_pham.php(7): include_once('C:\\wamp64\\www\\w...')
+#5 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(52): require_once('C:\\wamp64\\www\\ in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\san-Pham.php on line 30
+
+2023-06-06T14:02:42+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php:54
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(46): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSX('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php on line 54
+
+2023-06-06T14:06:11+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(43): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 52
+
+2023-06-06T14:06:15+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(43): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 52
+
+2023-06-06T14:06:45+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(43): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 52
+
+2023-06-06T14:06:58+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:52
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(43): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 52
+
+2023-06-06T14:07:03+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php:54
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(46): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSX('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php on line 54
+
+2023-06-06T14:07:08+00:00 CRITICAL Uncaught Error: Class 'quanLySach_transient' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php:54
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(46): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSX('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php on line 54
+
+2023-06-06T14:35:54+00:00 CRITICAL Uncaught Error: Class 'NSXModel' not found in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php:55
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(46): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_NSX('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_NSX.php on line 55
+

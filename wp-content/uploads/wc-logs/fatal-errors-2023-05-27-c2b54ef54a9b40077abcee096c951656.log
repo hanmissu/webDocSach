@@ -1,0 +1,10 @@
+2023-05-27T12:43:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php:64
+Stack trace:
+#0 C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\includes\admin.php(35): require_once()
+#1 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(308): admin->quan_ly_danh_muc('')
+#2 C:\wamp64\www\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\wamp64\www\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\wamp64\www\wordpress\wp-admin\admin.php(259): do_action('quan-ly-sach_pa...')
+#5 {main}
+  thrown in C:\wamp64\www\wordpress\wp-content\plugins\quanLySach\admin\views\view_quan_ly_danh_muc.php on line 64
+

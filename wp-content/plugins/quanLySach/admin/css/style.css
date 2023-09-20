@@ -1,0 +1,78 @@
+/* popup sua the loai */
+
+#popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    background-color: #f8f9fa;
+    visibility: hidden;
+    opacity: 0;
+    transform: 0.5s;
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 2;
+    transform: 0.5s;
+}
+
+#btn-close {
+    margin-left: 60px;
+    margin-top: -65px
+}
+
+
+/* ----- */
+
+#popup_product {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #FF9999;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transform: 0.5s;
+}
+
+#popup_product.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 2;
+    transform: 0.5s;
+}
+
+.sub {
+    color: red;
+}
+
+#spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.add-material {
+    display: flex;
+    /* Sử dụng Flexbox để căn phải */
+    justify-content: space-between;
+    /* Căn khoảng trống giữa các phần tử là đủ để đặt input bên phải */
+    align-items: center;
+    /* Căn dọc giữa các phần tử trong trường hợp cao độ khác nhau */
+}
